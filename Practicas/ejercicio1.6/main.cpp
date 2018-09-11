@@ -88,10 +88,24 @@ int main(int argc, char **argv)
 bool inp_to_ndc(Point a){
 	if (ndhm0<=get<0>(a) and ndhm1>=get<0>(a) and ndvm0<=get<1>(a) and ndvm1>=get<1>(a) )
 	{
+		ndcx=dcx/ndhm1;
+		ndcy=dcy/ndvm1;
 		return true;
 	}
 	return false;
 }
+
+bool ndc_to_dc(Point a){
+	if (ndhm0<=get<0>(a) and ndhm1>=get<0>(a) and ndvm0<=get<1>(a) and ndvm1>=get<1>(a) )
+	{
+		dcx=round(ndcx*ndhm1);
+		dcy=round(ndcy*ndvm1);
+		return true;
+	}
+	return false;
+}
+
+
 
 bool user_to_ndc(Point user){
 	float ndcx,ndcy;
@@ -112,16 +126,16 @@ bool user_to_ndc(Point user){
 	return false
 }
 
-bool ndc_to_user(Point ndc){
+bool ndc_to_user(Point a){
 	float x,y;
-	if (inp_to_ndc(Point ndc)==true)
+	if (ndhm0<=get<0>(a) and ndhm1>=get<0>(a) and ndvm0<=get<1>(a) and ndvm1>=get<1>(a))
 	{
-		x=get<0>(ndc)-ndhm0;
+		x=get<0>(a)-ndhm0;
 		x=x*(xmax-xmin);
 		x=x/(ndhm1-ndhm0);
 		x=x+xmin;
 
-		y=get<1>(ndc)-ndvm0;
+		y=get<1>(a)-ndvm0;
 		y=y*(ymax-ymin);
 		y=y/(ndvm1-ndvm0);
 		y=y+ymin;
