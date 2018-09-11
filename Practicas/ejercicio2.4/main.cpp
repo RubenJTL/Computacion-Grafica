@@ -98,6 +98,25 @@ void lineSegment(void){
     glFlush();
 }
 
+/////////////////PRIMITIVAS/////////////////
+pen_up() {
+	moveto(dcx,dcy)
+	drawto(dcx,dcy)
+	moveto(dcx,dcy)
+	drawto(dcx,dcy)
+}
+
+pen_down() {
+	drawto(dcx,dcy)
+	drawto(dcx,dcy)
+}
+
+locate(dcx, dcy) {
+	moveto(dcx, dcy);
+}
+
+////////////////////////////////////////////
+
 int main(int argc, char **argv)
 {
 	
