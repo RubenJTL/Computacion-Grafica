@@ -4,10 +4,9 @@ En el presente trabajo se trabajo con algoritmos creados por mi, usando los sigu
 + PRIMITIVAS.h
 
 dentro de Matrix.h se encuentra la creacion de la matriz para poder marcar los puntos pintados.
-'''
+
     #ifndef MATRIX_H
     #define MATRIX_H
-
     #include <GL/glut.h>
     #include <iostream>
     #include <algorithm>
@@ -62,4 +61,5 @@ dentro de Matrix.h se encuentra la creacion de la matriz para poder marcar los p
     }
 
     #endif
-'''
+    
+    
