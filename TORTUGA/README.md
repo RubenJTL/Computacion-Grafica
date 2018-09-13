@@ -331,5 +331,12 @@ En Main.cpp encontraremos la funcion DrawTurtleSphere la cual crea la tortuga us
         glutKeyboardFunc(keyboard);
 
         glutMainLoop();
-    }
+      }
 
+##RESULTADOS DE EJECUCION
+
+![alt text]( Computacion-Grafica/TORTUGA/TORTUGA1.png )
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
