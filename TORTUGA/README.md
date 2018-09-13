@@ -333,10 +333,14 @@ En Main.cpp encontraremos la funcion DrawTurtleSphere la cual crea la tortuga us
         glutMainLoop();
       }
 
-##RESULTADOS DE EJECUCION
-
+## RESULTADOS DE EJECUCION
+### POSICION INICIAL
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/TORTUGA/TORTUGA1.png)
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+### TRASLACION HACIA ARRIBA
+![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/TORTUGA/TORTUGA2.png)
+### TRASLACION A LA DERECHA
+![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/TORTUGA/TORTUGA3.png)
+### ROTACION A LA IZQUIERDA
+![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/TORTUGA/TORTUGA4.png)
+### ROTACION A LA DERECHA
+![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/TORTUGA/TORTUGA5.png)
