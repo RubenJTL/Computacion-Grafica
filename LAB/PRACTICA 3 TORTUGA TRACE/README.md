@@ -1,17 +1,11 @@
-Drawing and interacting a turtle
+TORTUGA PRACTICA 3 Laboratorio Computacion Grafica CS UNSA
 
-Draws a turtle and it can be moved with w,a,s,d; to scale use + and -, to rotate i,j,k,l
-
-press i to write commands
-
-then you can type commands life fd for foward followed by a number
-Requirements
-
+Requisitos
     OpenGL
     c++
 
 Running
-
-g++ main.cpp -lglut -lGL -lGLEW -lGLU
-
-Screenshots
+    sh tortuga.sh
+    
+Capturas
+    
