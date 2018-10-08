@@ -1,13 +1,13 @@
 # Examen Computacion Grafica
 ## 1 Usando las propiedades de vectores ortogonales transformar los siguientes puntos, C esta en el plano XY y A esta el eje C.
 	Puntos Iniciales
-	A[]
-	B[]
-	C[]
+	A[-1 , 2 , 3 ]
+	B[ 1 , 1 , 1 ]
+	C [3 , 2 , 1 ]
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/p2_1.png)
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/p2_2.png)
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/p2_3.png)
-![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/matriz_puntos.png)
+![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/Matrices_puntos.png)
 ## 2 Algoritmo de trazado de linea 3D
 ## 3 Algoritmo de trazado de Parabola
   Algoritmo para dibujar la parabola con simetria
