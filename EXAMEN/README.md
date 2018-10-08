@@ -59,4 +59,4 @@
 	    }
 	    return resMatrix;
     }
-  ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/TORTUGA/TORTUGA1.png)
+  ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%204/parabola.png)
