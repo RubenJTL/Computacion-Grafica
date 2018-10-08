@@ -11,7 +11,83 @@ Para poder compilar cada proyecto es necesario ejecutar los .sh
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/p2_3.png)
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/Matrices_puntos.png)
 ## 2 Algoritmo de trazado de linea 3D
-![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%203/linea3D.png)
+	void drawLine(Point3D P1, Point3D P2)
+	{
+    int dx,dy ,dz, x,y,z;
+    int err_1,err_2,err_3;
+    int incX,incY,incZ;
+
+	x=P1.x;
+	y=P1.y;
+	z=P1.z;
+
+    dx=P2.x-P1.x;    
+    dy=P2.y-P1.y;
+    dz=P2.z-P1.z;
+    
+    incX = 1;    
+    incY = 1;
+    incZ = 1;
+   
+    while(x<P2.x){
+    	err_1 = 2*dy - dx;
+		err_2 = 2*dz - dx;
+    	for (int i = 0; i < dx; i++) {
+
+		    if (err_1 > 0) {
+		        y += incY;
+		        err_1 -= 2*dx;
+		    }
+		    if (err_2 > 0) {
+		        z += incZ;
+		        err_2 -= 2*dx;
+		    }
+		    err_1 += 2*dy;
+		    err_2 += 2*dz;
+		    x+= incX;
+		    putPixel(x,y,z);
+		}
+    }
+    while(y<P2.y){
+    	err_1 = 2*dx - dy;
+		err_2 = 2*dz - dy;
+		for (int i = 0; i < dy; i++) {
+
+		    if (err_1 > 0) {
+		        x += incX;
+		        err_1 -= 2*dy;
+		    }
+		    if (err_2 > 0) {
+		        z += incZ;
+		        err_2 -= 2*dy;
+		    }
+		    err_1 += 2*dx;
+		    err_2 += 2*dz;
+		    y += incY;
+		    putPixel(x,y,z);
+		}
+    }
+	while(z<P2.z) 
+	{
+		err_1 = 2*dy - dz;
+		err_2 = 2*dx - dz;
+		for (int i = 0; i < dz; i++) {
+
+		    if (err_1 > 0) {
+		        y += incY;
+		        err_1 -= 2*dz;
+		    }
+		    if (err_2 > 0) {
+		        x += incX;
+		        err_2 -= 2*dz;
+		    }
+		    err_1 += 2*dy;
+		    err_2 += 2*dx;
+		    z += incZ;
+		    		    putPixel(x,y,z);
+		}
+	}
+![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%203/Linea3D.png)
 
 
 
