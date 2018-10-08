@@ -1,4 +1,6 @@
 # Examen Computacion Grafica
+Para poder compilar cada proyecto es necesario ejecutar los .sh 
+
 ## 1 Usando las propiedades de vectores ortogonales transformar los siguientes puntos, C esta en el plano XY y A esta el eje C.
 	Puntos Iniciales
 	A[-1 , 2 , 3 ]
@@ -9,6 +11,10 @@
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/p2_3.png)
 ![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%202/Matrices_puntos.png)
 ## 2 Algoritmo de trazado de linea 3D
+![](https://github.com/RubenJTL/Computacion-Grafica/blob/master/EXAMEN/PREGUNTA%203/linea3D.png)
+
+
+
 ## 3 Algoritmo de trazado de Parabola
   Algoritmo para dibujar la parabola con simetria
     
